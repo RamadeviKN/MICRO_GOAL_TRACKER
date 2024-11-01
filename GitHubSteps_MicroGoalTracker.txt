@@ -1,0 +1,46 @@
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git init
+Initialized empty Git repository in C:/Users/mkris/Downloads/MICRO_GOAL_TRACKER/.git/
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git add .
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git commit -m "Micro Goal tracker project code changes"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mkris@Ramadevi.(none)')
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git config --global user.email "ramadevikn2017@gmail.com"
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git config --global user.name "RamadeviKN"
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git commit -m "Micro Goal tracker project code changes"  
+[master (root-commit) e0c7570] Micro Goal tracker project code changes
+ 6 files changed, 266 insertions(+)
+ create mode 100644 css/goaltracker.css
+ create mode 100644 goaltracker.html
+ create mode 100644 images/checked.png
+ create mode 100644 images/icon.png
+ create mode 100644 images/unchecked.png
+ create mode 100644 js/goaltracker.js
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git remote add origin "https://github.com/RamadeviKN/MICRO_GOAL_TRACKER"
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/RamadeviKN/MICRO_GOAL_TRACKER'
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> git push origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 54.46 KiB | 2.72 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/RamadeviKN/MICRO_GOAL_TRACKER/pull/new/master
+remote:
+To https://github.com/RamadeviKN/MICRO_GOAL_TRACKER
+ * [new branch]      master -> master
+(base) PS C:\Users\mkris\Downloads\MICRO_GOAL_TRACKER> 
