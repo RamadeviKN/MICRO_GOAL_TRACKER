@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOAL TRACKER APP</title>
+    <link rel="stylesheet" href="css/goaltracker.css">
+</head>
+<body>
+    <div class="container">
+        <div class="goal-app">
+            <h2>⏳ MICRO GOAL TRACKER BUDDY<img src="images/icon.png"></h2>
+            <ul id="desc-container" class="appdesc">
+                <li>Add your micro goals here!📝</li>
+                <li>Track progress on ongoing goals and stay motivated.💪</li>
+                <li>Remove goals when achieved. ✅</li>
+                <li>Celebrate each milestone of your success!🏆</li>
+            </ul>
+            <br>
+            <div id="errorPopup" class="popup">
+                <span class="close" onclick="closeError()">&times;</span>
+                <p>Please add atleast one new goal! Get Started!</p>
+            </div>
+            <div class="goalcontent">
+                <input type="text" id="input-box" placeholder="Add your goals">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+            <div id="confirmationPopup">
+                <span class="confirmation-close" onclick="closeConfirmationPopup()">&times;</span>
+                <img src="images/checked.png"></h2>
+                <p>Congratulations! Way to go!</p>
+                <p><i>Note that your achieved goals are removed from the tracker!</i></p>
+                <!--<label for="yes_no_radio"><i>Do you wish to remove this acieved goal from the tracker?</i></label>
+                    <p>
+                        <input type="radio" name="yes_no" checked value="yes">Yes</input>
+                    </p>
+                    <p>
+                        <input type="radio" name="yes_no" value="no">No</input>
+                    </p>-->
+            </div>
+        </div>
+    </div>
+    <script src="js/goaltracker.js"></script>
+</body>
+</html>
